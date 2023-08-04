@@ -20,7 +20,7 @@ git clone https://gitlab.com/writeonlyhugo/writeonlyhugo-demo.git
 Alternatively, you can clone just the theme to your theme folder:
 
 ```bash
-git clone https://gitlab.com/writeonlyhugo/writeonlyhugo-theme.git themes/up-business-theme
+git clone https://gitlab.com/writeonlyhugo/writeonlyhugo-theme.git themes/writeonlyhugo-theme
 ```
 
 The folder `hugoBasicExample` contains a working version of a website with the
