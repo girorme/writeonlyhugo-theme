@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-12">
         <p class="text-muted text-center small">
-        Copyright © 2022-present Iago Bozza
+          {{ replace .Site.Copyright "{year}" now.Year }}
         </p>
       </div>
     </div>
