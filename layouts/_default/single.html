@@ -1,4 +1,9 @@
 {{ define "main" }}
+{{ with .Params.images }}
+{{ range first 1 . }}
+<meta property="og:image" content="{{ . | absURL }}" />
+{{ end }}
+{{ end }}
 <main class="container py-5 flex-grow-1">
   <div class="row justify-content-center">
     <div class="col-12 mw-md mh-100">
